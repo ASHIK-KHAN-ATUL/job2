@@ -1,0 +1,61 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+    align-items: center;
+    background-color: beige;
+    padding: 100px;
+    border: 3px solid tomato;
+    border-radius: 20px;
+    box-shadow: 1px 5px 25px red;   
+    text-decoration: none;
+}
+.nav-item ul{
+    display: flex;
+    list-style: none;
+}
+.nav-item ul li a{
+    text-decoration: none;
+    margin-right:50px; 
+    color: tomato;
+    background-color: beige;
+    border-radius: 5px; 
+    padding: 5px;
+    font-family: monospace;
+    font-size: 25px ;
+}
+.nav-item ul li a:hover{
+    color:beige ;
+    background-color: tomato;
+    transition: 0.5s;
+}
+a{
+    text-decoration: none;
+    font-family: monospace;
+    color: rgb(4, 185, 146);
+    font-size: 40px;
+    font-weight: 700;
+}
+.nav-title:hover{
+    color: black;
+    transition: .5s;
+}
+
+.connect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    gap: 50px;
+}
+.connect-title{
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: 500;
+}
+.connect-icon{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+

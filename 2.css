@@ -1,0 +1,203 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 20px;
+    align-items: center;
+    background-color: rgb(220, 245, 228);
+    padding: 10px;
+    border: 2px solid rgba(255, 99, 71, 0.516);
+    border-radius: 20px;
+    box-shadow: 1px 2px 5px rgba(255, 0, 0, 0.548);   
+    text-decoration: none;
+}
+.nav-item ul{
+    display: flex;
+    list-style: none;
+}
+.nav-item ul li a{
+    text-decoration: none;
+    margin-right:50px; 
+    color: tomato;
+    background-color: rgb(220, 245, 228);
+    border-radius: 5px; 
+    padding: 5px;
+    font-family: monospace;
+    font-size: 25px ;
+}
+.nav-item ul li a:hover{
+    color:rgb(220, 245, 228) ;
+    background-color: tomato;
+    transition: 0.5s;
+}
+a{
+    text-decoration: none;
+    font-family: monospace;
+    color: rgb(4, 185, 146);
+    font-size: 40px;
+    font-weight: 700;
+}
+.nav-title:hover{
+    color: black;
+    transition: .5s;
+}
+
+.connect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: rgba(0, 255, 255, 0.181);
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.connect-title{
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: 500;
+}
+.connect-icon{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+/* BANNER ====================================================================================================================== */
+.banner-card{
+    height: 1000px;
+}
+.banner{
+    background-image: url(img/banner.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    margin: 150px;
+
+}
+
+.detail{
+    background-color: rgba(170, 237, 191, 0.619);
+    height: 250px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    border-top: 3px solid greenyellow;
+    box-shadow: 2px 5px 10px rgba(128, 128, 128, 0.793);
+    position: relative;
+    bottom: 120px;
+}
+
+
+/* ABOUT=================================================================================================================== */
+.banner-card-2{
+    height: 1100px;
+}
+.banner-2{
+    background-image: url(img/banner2.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.table-1, th, td, caption{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    border-radius: 10px;
+}
+table{
+    margin: 0px  500px;
+    background-color: rgba(10, 166, 114, 0.437);
+}
+caption{
+    background-color: antiquewhite;
+}
+
+
+
+/* contact -=========================================================================================================== */
+.bann-3{
+    display: flex;
+    justify-content: center;
+}
+.banner-3 img{
+    width: 100%;
+}
+
+.card-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    gap: 40px;
+
+}
+.card{
+    height: 350px;
+    width: 350px;
+    background-color: rgba(211, 211, 211, 0.33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 30px;
+    font-family: monospace;
+    box-shadow: 1px 1px 25px lightsalmon ;
+}
+
+.card img{
+    width: 45%;
+    height: 48%;
+}
+
+.link{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 100px;
+
+}
+.link-name{
+    height: 150px;
+    width: 150px;
+    background-color: rgba(211, 211, 211, 0.33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 15px lightsalmon ;
+    border-radius: 25px;
+    font-family: monospace;
+}
+
+.btn-pro{
+    padding: 10px;
+    background-color: lightsalmon;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-pro:hover{
+    background-color:rgba(211, 211, 211, 0.33) ;
+    color: lightsalmon;
+    transition: 0.3s;
+}
+
+a .pic-10{
+    height: 23px;
+    width: 45px;
+    background-color: black;
+    padding: 5px;
+    border-radius: 100px;
+}
+
+
+/* Blog===================================================================================================== */
+h1{
+    font-size: 300px;
+}
